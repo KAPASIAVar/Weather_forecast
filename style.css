@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("palm-7641522_1920.jpg");
+}
+
+header h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 5vw;
+    margin-top: 2vh;
+    padding: 2vh 0vw;
+    text-decoration: underline;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border-radius: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vw;
+    
+
+    padding-bottom: 10vh;
+}
+
+.box1 {
+    border: 2px solid black;
+    margin-left: 2vw;
+    
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    padding-right: 5vw;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(10px);
+
+}
+
+.box1 input {
+    font-size: 3vw;
+    margin-left: 10vw;
+    border-radius: 10px;
+
+}
+
+.box1 button {
+    font-size: 2.5vw;
+    width: 10vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10vw;
+}
+
+.box1 button:hover {
+    color: black;
+    background-color: white;
+}
+
+.box2 {
+    border: 2px solid black;
+    padding-top: 0;
+    margin-left: 2vw;
+
+    width: 41vw;
+
+    border-radius: 15px;
+    background-image: url("clouds-1850093_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin-right: 2vw;
+
+}
+
+.box2 h2 {
+    font-size: 5vw;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.box2 p {
+    font-size: 3vw;
+    padding-left: 1vw;
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff;
+    
+}
